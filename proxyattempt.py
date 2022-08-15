@@ -8,8 +8,7 @@ For example: http://localhost:5000/p/www.google.com
 import re
 from urllib.parse import urlparse, urlunparse
 from flask import Flask, render_template, request, abort, Response, redirect
-import requests
-import logging
+
 
 app = Flask(__name__.split('.')[0])
 logging.basicConfig(level=logging.INFO)
