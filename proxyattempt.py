@@ -14,7 +14,7 @@ import logging
 app = Flask(__name__.split('.')[0])
 logging.basicConfig(level=logging.INFO)
 APPROVED_HOSTS = set(["ww1.google.com", "ww1.google.com", "yahoo.com", "wcofun.com", "torrentgalaxy.to"])
-CHUNK_SIZE = 1024
+CHUNK_SIZE = 2048
 LOG = logging.getLogger("app.py")
 
 
